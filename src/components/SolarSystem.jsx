@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import Title from './Title';
 
 class SolarSystem extends Component {
   render() {
     return (
-      <div data-testid="solar-system"> só para n ficar em braco e o lint reclamar</div>
+      <div data-testid="solar-system">
+        <Title headline="Planetas" />
+      </div>
     );
   }
 }
